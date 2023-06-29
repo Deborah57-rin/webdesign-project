@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>About Us - Fashion and Design Shop</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		.container {
+			max-width: 1200px;
+			margin: 0 auto;
+			padding: 20px;
+			height: 60vh;
+		}
+        h1 {
+		text-align: center;
+		font-size: 40px;
+		margin-bottom: 20px;
+	}
+
+	p {
+		align-items: center;
+		font-size: 18px;
+		line-height: 1.5;
+		margin-bottom: 20px;
+		margin-right: 50px;
+		margin-left: 50px;
+		font-family: sans-serif;
+	}
+
+	img {
+		/*max-width: 100%;*/
+		margin-bottom: 20px;
+		margin-left: 100px;
+		border-radius: 10px;
+		height: 300px;
+		
+		
+	}
+	header{
+		background-color: #1d3377;
+	}
+
+ .navbar{
+	 width: 85%;
+	 margin: auto;
+	 padding: 35px 0;
+	 display: flex;
+	 align-items: center;
+	 justify-content: space-between;
+	 
+ }
+ .logo{
+	 color: white;    
+ }
+ .logo h2{
+	 font-family: sans-serif;
+	 font-size: 30px;
+ }
+ .navbar ul li{
+	 list-style: none;
+	 display: inline-block;
+	 margin: 20px;
+	 position: relative;
+ }
+ .navbar ul li a{
+	 text-decoration: none;
+	 color: white;
+	 text-transform: uppercase;
+	 float: right;
+	 font-family: sans-serif;
+ }
+ .navbar ul li a::after{
+	 content: '';
+	 height: 3px;
+	 width: 0;
+	 background: 009688;
+	 position: absolute;
+	 left: 0;
+	 bottom: -10px;
+	 transform: 0.5s;
+ }
+ .navbar ul li a:hover::after{
+	 width: 100;
+ }
+ .newsletter {
+	background-color: #1d3377;
+	color: #fff;
+	padding: 80px 20px;
+	text-align: center;
+}
+
+.newsletter h2 {
+	font-size: 32px;
+	margin-bottom: 20px;
+}
+
+.newsletter label {
+	display: block;
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+
+.newsletter input[type=email] {
+	padding: 10px;
+	border-radius: 5px;
+	border: none;
+	margin-bottom: 20px;
+}
+
+.newsletter button {
+	background-color: #fff;
+	color: #333;
+	font-size: 16px;
+	font-weight: bold;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.newsletter button:hover {
+	background-color: #f5f5f5;
+	color: #333;
+}
+  /* Footer styles */
+  hr{
+	margin: 0 400px;
+  }
+  footer {
+	background-color: #fff;
+	color: black;
+	text-align: center;
+	padding: 20px;
+  }
+</style>
+</head>
+
+<body>
+	<header>
+		<div class="navbar">
+			<div class="logo"><h2>Dreams fashion</h2></div>
+		
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="featured.html">Featured Products</a></li>
+				<li><a href="shop.html">Shop</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+				
+			</ul>
+		
+	 </div>
+	</header> 
+	
+	<section class="container">
+		<h1>About Us</h1>
+		<table>
+		<tr>
+			<td><img src="https://media.istockphoto.com/id/831660172/photo/spoiling-herself-with-new-cothes.jpg?s=612x612&w=0&k=20&c=1Z9uwpHHHQ0K8b86FB0YxXWmHMpwHZT5Uqy4iqjIOAg=" alt="Fashion and Design Shop" alt=""></td>
+
+		<td><p>Welcome to Fashion and Design Shop, where we offer the latest and greatest in fashion and design. Our store features a wide range of clothing, shoes, and accessories for men and women, as well as unique home decor and gift items.
+		Our team is dedicated to providing our customers with the best possible shopping experience. We are located in San Antonio, Texas, Marriott Rivercenter, 3rd floor room 15. </p></td>
+	</tr>
+	</table>
+	
+	</section>
+<!--<section class="newsletter">
+	<h2>Subscribe to our Newsletter</h2>
+	<form>
+		<label for="email">Email Address:</label>
+		<input type="email" id="email" name="email" placeholder="Enter your email address">
+		<button type="submit">Subscribe</button>
+	</form>
+</section>-->
+<hr>
+<footer>
+	<p>&copy; Dreams Fashion and Design 2023. All Rights Reserved.</p>
+</footer>
+</body>
+
+</html>

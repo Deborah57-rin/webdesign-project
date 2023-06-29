@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Shop - Fashion and Design Shop</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<style>
+	
+
+  a {
+	text-decoration: none;
+	color: inherit;
+  }
+  
+  ul {
+	list-style: none;
+  }
+  
+  img {
+	max-width: 100%;
+	object-fit: cover;
+  }
+  
+  button {
+	padding: 10px;
+	background-color: #333;
+	color: #fff;
+	border: none;
+	cursor: pointer;
+  }
+  
+  button:hover {
+	background-color: #555;
+  }
+  
+  /* Header styles */
+  header{
+	background-color: #1d3377;
+	
+  }
+  .navbar{
+	 width: 85%;
+	 margin: auto;
+	 padding: 35px 0;
+	 display: flex;
+	 align-items: center;
+	 justify-content: space-between;
+	 
+ }
+ .logo{
+	 color: white;
+	    
+ }
+ .logo h2{
+	 font-family: sans-serif;
+	 font-size: 30px;
+ }
+ .navbar ul li{
+	 list-style: none;
+	 display: inline-block;
+	 margin: 20px;
+	 position: relative;
+ }
+ .navbar ul li a{
+	 text-decoration: none;
+	 color: white;
+	 text-transform: uppercase;
+	 float: right;
+ }
+ .navbar ul li a::after{
+	 content: '';
+	 height: 3px;
+	 width: 0;
+	 background: 009688;
+	 position: absolute;
+	 left: 0;
+	 bottom: -10px;
+	 transform: 0.5s;
+ }
+ .navbar ul li a:hover::after{
+	 width: 100;}
+  
+  h1 {
+	font-size: 36px;
+  }
+  h2{
+	text-align: center;
+	font-size: 30px;
+  }
+  
+  /* Main styles */
+  
+  main {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 40px;
+  }
+  
+  .products {
+	display: flex;
+	
+  }
+  
+  .product {
+	flex-basis: calc(33.33% - 20px);
+	margin: 10px;
+	padding: 20px;
+	background-color: #f5f5f5;
+	text-align: center;
+	border-radius: 10px;
+  }
+  
+  .product h3 {
+	margin-top: 10px;
+	font-size: 24px;
+  }
+  
+  .product p {
+	margin-top: 10px;
+	font-size: 16px;
+  }
+  .product img{
+	border-radius: 10px;
+  }
+  
+  .price {
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 10px;
+  }
+  
+  /* Footer styles */
+
+  hr{
+	margin: 0 400px;
+  }
+  
+  footer {
+	background-color: white;
+	color: black;
+	text-align: center;
+	padding: 20px;
+  }
+</style>
+
+<body>
+	<header>
+		<div class="navbar">
+			<div class="logo"><h2>Dreams fashion</h2></div>
+		
+			<ul>
+				<li><a href="index.html">Home</a></li>
+				<li><a href="about.html">About Us</a></li>
+				<li><a href="featured.html">Featured Products</a></li>
+				<li><a href="shop.html">Shop</a></li>
+				<li><a href="contact.html">Contact Us</a></li>
+				
+			</ul>
+		
+	 </div>
+	 
+	</header>
+	<main>
+		<h2>Shop</h2>
+		<section class="products">
+			<article class="product">
+				<img src="https://media.istockphoto.com/id/1421871529/photo/serie-of-studio-photos-of-young-female-model-in-brown-tweed-dress-autumn-winter-fashion.jpg?s=612x612&w=0&k=20&c=JsnV1sCwIbbsa8R0cYnhOrvU8qTukAek3jwkcZRSxIk=" alt="Product 1">
+				<h3>Product 1</h3>
+				<p>Italian Brown Dress</p>
+				<p class="price">$35.99</p>
+				<button><a href="contact.html">Order</a></button>
+			</article>
+			<article class="product">
+				<img src="https://images.unsplash.com/flagged/photo-1559502867-c406bd78ff24?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTR8fGtpZHMlMjBmYXNoaW9ufGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60" alt="Product 2">
+				<h3>Product 2</h3>
+				<p>Winter White sweater</p>
+				<p class="price">$24.99</p>
+				<button><a href="contact.html">Order</a></button>
+			</article>
+			<article class="product">
+				<img src="https://images.unsplash.com/photo-1617137968427-85924c800a22?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8bWVucyUyMGZhc2hpb258ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60" alt="Product 3">
+				<h3>Product 3</h3>
+				<p>Men's suit(Navy blue)</p>
+				<p class="price">$200.99</p>
+				<button><a href="contact.html">Order</a></button>
+			</article>
+		</section>
+	</main>
+	<hr>
+	<footer>
+		<p>&copy; Dreams Fashion and Design 2023. All Rights Reserved.</p>
+	</footer>
+</body>
+</html>
